@@ -12,7 +12,7 @@
 
 **************************************************************
 
-<p1>Categorias: Front-end e HTML5</p1>
+<a1>Categorias: Front-end e HTML5</a1>
 
-<p2>Tags: HTML5 Front-end Cursos</p2>
+<a2>Tags: HTML5 Front-end Cursos</a2>
  
