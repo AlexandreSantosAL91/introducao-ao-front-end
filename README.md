@@ -10,5 +10,3 @@ canal [Jornada do DEV](https://jornadadodev.com.br/cursos/curso-completo-de-html
 </p>
 
 *Categorias: Front-end e HTML5*
-
-*Tags: HTML5, Front-end e Cursos*
