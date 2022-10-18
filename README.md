@@ -2,6 +2,7 @@
 
 <a align="center"> Neste repositório estarão todos os arquivos de **HTML5**, construido durante a jornada ao **Curso completo de HTML5** no</a> [Canal      Jornada do DEV](https://jornadadodev.com.br/cursos/curso-completo-de-html5)
 
+
 <div style="display: inline_block"  align="center"> 
     <a href="https://jornadadodev.com.br/cursos/curso-completo-de-html5">
     <img img
@@ -11,9 +12,8 @@
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
 
 <div style="display: inline_block" align="center">
-    
+ 
 <a>**Categorias: Front-end e HTML5**</a>
-
 <a>**Tags: HTML5 Front-end Cursos**</a>
     
 </div>
