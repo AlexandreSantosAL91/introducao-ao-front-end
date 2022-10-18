@@ -5,9 +5,9 @@
 **************************************************************
 <div style="display: inline_block"  align="center"> 
 
-<p1 href="https://jornadadodev.com.br/cursos/curso-completo-de-html5">
+<a href="https://jornadadodev.com.br/cursos/curso-completo-de-html5">
 <img height="300" src= "https://user-images.githubusercontent.com/78920317/196547047-42ba4eab-1bde-4bd6-9229-dee2c1c33681.png"/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p1>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
 </div>
 
 **************************************************************
@@ -18,9 +18,5 @@
 
 </p1>
 
-<p2>
-  
-    <a> **Tags: HTML5 Front-end Cursos** </a>
-  
-</p2>
+<p2>**Tags: HTML5 Front-end Cursos**</p2>
  
