@@ -1,7 +1,7 @@
 ## Introdução ao Front-end
 
-Neste repositório estarão todos os arquivos de **HTML5**, construido durante a jornada ao **Curso completo de HTML5** no</a> 
-[Canal      Jornada do DEV](https://jornadadodev.com.br/cursos/curso-completo-de-html5).
+Neste repositório estarão todos os arquivos de **HTML5**, construido durante a jornada ao **Curso completo de HTML5** no
+canal [Jornada do DEV](https://jornadadodev.com.br/cursos/curso-completo-de-html5).
 
 <p img align="center" >
     <a href="https://jornadadodev.com.br/cursos/curso-completo-de-html5">
@@ -11,6 +11,4 @@ Neste repositório estarão todos os arquivos de **HTML5**, construido durante a
 
 *Categorias: Front-end e HTML5*
 
-*Tags: HTML5 Front-end Cursos*
-
-*Alexandre Santos*
+*Tags: HTML5, Front-end e Cursos*
