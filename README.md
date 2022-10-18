@@ -19,9 +19,8 @@
 
 <div align="center">
     <a1>**Categorias: Front-end e HTML5**</a1>
-
     
-    <a>**Tags: HTML5 Front-end Cursos**</a>
+    <a2>**Tags: HTML5 Front-end Cursos**</a2>
 </div>
 </body>
 </html>
