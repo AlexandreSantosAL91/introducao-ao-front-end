@@ -1,6 +1,11 @@
 # Introdução ao Front-end
-
-<a align="center"> Neste repositório estarão todos os arquivos de **HTML5**, construido durante a jornada ao **Curso completo de HTML5** no</a> [Canal Jornada do DEV](https://jornadadodev.com.br/cursos/curso-completo-de-html5)...
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+</head>
+<body>
+    <a align="center"> Neste repositório estarão todos os arquivos de **HTML5**, construido durante a jornada ao **Curso completo de HTML5** no</a> [Canal Jornada do DEV](https://jornadadodev.com.br/cursos/curso-completo-de-html5)...
 
 **************************************************************
 <div style="display: inline_block"  align="center"> 
@@ -12,7 +17,12 @@
 
 **************************************************************
 
-<a1>Categorias: Front-end e HTML5</a1>
+<div align="center">
+    <a1>**Categorias: Front-end e HTML5**</a1>
 
-<a2>Tags: HTML5 Front-end Cursos</a2>
- 
+    
+    <a>**Tags: HTML5 Front-end Cursos**</a>
+</div>
+</body>
+</html>
+
