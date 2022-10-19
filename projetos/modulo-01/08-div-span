@@ -1,10 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Div</title>
 
+<style>
+    div{background-color: #ccc; padding: 20px;}
+    span{ color: red;background-color: #fff;}
+</style>
+</head>
+
+<body>
+    <!-- Aqui começa minha Div -->
+    <div>
+        <h1>Aprendendo HTML5</h1>
+        <p> O curso de HTML5 visa apresentar os conceitos básicos do HTML e as principais mudanças
+            e funcionalidades da quinta versão da <span>linguagem</span>. Um curso completo para todos os
+            profissionais de web.</p>
+    </div>
 </body>
 </html>
