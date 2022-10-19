@@ -1,48 +1,120 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
 
 <head>
 
     <meta charset="UTF-8">
     <title>Formulários</title>
+    <meta name="description" content="Cursos de Desenvolvimento Web">
+    <meta name="keywords" content="HTML5, CSS3 E PHP">
+    <meta name="author" content="Alexandre Santos">
 
 </head>
 
-    <body>
+<body>
 
-        <form action="alexandresantos.com" method="GET">
+<form action="showtime.com" method="GET">
 
-            <fieldset>
+    <fieldset>
+        <br>
+        Nome:
+        <label>
+            <input type="text" name="nome" autocomplete="on" placeholder="Seu nome" required autofocus maxlength="5">
+        </label>
+        </br>
+        <br>
+        Senha:
+        <label>
+            <input type="password" name="senha" autocomplete="on" placeholder="Sua senha" required autofocus>
+        </label>
+        </br>
 
-                Nome:
-                    <label>
-                            <input type="text" name="nome" required autofocus maxlength="5">
-                        </label>
+        <br>
+        E-Mail:
+        <label>
+            <input type="email" name="e-mail" autocomplete="on" placeholder="Seu e-mail" required autofocus ###disabled### >
+        </label>
+        </br>
 
-                Senha:
-                    <label>
-                        <input type="password" name="senha" required autofocus>
-                    </label>
+        <br>
+        Imagem:
+        <label>
+            <input type="file" name="imagem" placeholder="Imagem" required>
+        </label>
+        </br>
+        <br>
+        <label>
+            <input type="hidden" name="id">
+        </label>
+        </br>
 
-                E-Mail:
-                    <label>
-                         <input type="email" name="E-mail" required autofocus disabled>
-                     </label>
+        <br>
+        URL:
+        <label>
+            <input type="url" name="site" placeholder="URL" required>
+        </label>
+        </br>
+        <br>
+        Search:
+        <label>
+            <input type="search" name="pesquisa" placeholder="Pesquisa" required>
+        </label>
+        </br>
+        <br>
+        Telefone:
+        <label>
+            <input type="telefone" name="telefone" placeholder="Telefone" required>
+        </label>
+        </br>
+        <br>
+        Time:
+        <label>
+            <input type="radio" name="Rádio" value="flamengo" required> Flamengo
+        </label>
 
-                Time:
-                    <label>
-                        <input type="radio" name="Rádio" value="flamengo"> Flamengo
-                    </label>
+        <label>
+            <input type="radio" name="Rádio" value="vasco"> Vasco da Gama
+        </label>
 
-                    <label>
-                        <input type="radio" name="Rádio" value="vasco"> Vasco da Gama
-                    </label>
-                <input type="submit" name="bnt-enviar" value="Enviar">
+        <label>
+            <input type="radio" name="Rádio" value="Botafogo"> Botafogo
+        </label>
+        </br>
 
-            </fieldset>
+        <br>
+        Cores:
+        <label>
+            <input type="checkbox" name="cores" value="preto" required> Preto
+            <input type="checkbox" name="cores" value="vermelho"> Vermelho
+            <input type="checkbox" name="cores" value="azul"> Azul
+        </label>
+        </br>
 
-        </form>
+        <br>
+        Quantidade:
+        <label>
+            <input type="number" nome="quantidade" min="0" max="100" placeholder="Quantidade" required>
+        </label>
+        </br>
+        <br>
+        <label>
+            <input type="range" name="quantidade">
+        </label>
+        </br>
 
-    </body>
+        <br>
+        Cor:
+        <input type="color" name="cor">
+        </br>
+        <br>
+        <input type="submit" name="bnt-enviar" value="Enviar">
+        </br>
+
+    </fieldset>
+
+</form>
+
+</body>
 
 </html>
