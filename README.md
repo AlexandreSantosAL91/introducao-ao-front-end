@@ -20,5 +20,5 @@ Neste [repositório](https://github.com/AlexandreSantosAL91/introducao-ao-front-
 
 # Autores
 
-| [<img src="https://github.com/AlexandreSantosAL91/introducao-ao-front-end/blob/main/img/autor.jpg" width=115><br><sub>Alexandre Santos</sub>](github.com/AlexandreSantosAL91) |  [<img src="https://github.com/AlexandreSantosAL91/introducao-ao-front-end/blob/main/img/icons.png" width=115><br><sub>Modo Teste</sub>](https://github.com/1) |  [<img src="https://github.com/AlexandreSantosAL91/introducao-ao-front-end/blob/main/img/icons.png" width=115><br><sub>Modo Teste</sub>](https://github.com/2) |
-| :---: | :---: | :---: |
+| [<img src="https://github.com/AlexandreSantosAL91/introducao-ao-front-end/blob/main/img/autor.jpg" width=115><br><sub>Alexandre Santos</sub>](github.com/AlexandreSantosAL91) | 
+| :---: |
