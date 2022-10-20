@@ -1,28 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
       xmlns="http://www.w3.org/1999/html">
 
 <head>
-
     <meta charset="UTF-8">
     <title>Formulários</title>
     <meta name="description" content="Cursos de Desenvolvimento Web">
     <meta name="keywords" content="HTML5, CSS3 E PHP">
     <meta name="author" content="Alexandre Santos">
-
 </head>
 
 <body>
 
 <form action="showtime.com" method="GET">
-
     <fieldset>
+
+        <form id="form-cadastro"
+              name="formulario-cadastro"></form>
+        <br>
+            Email:
+                <br>
+                    <label>
+                        <input type="email" name="email" required>
+                        <input type="submit" name="casdastro" formenctype="application/x-www-form-urlencoded" formmethod="get"
+                               formaction="cadastrar.php" value="Casdastro">
+                        <input type="submit" name="enviar-por-email" formtarget="_blank" formenctype="application/x-www-form-urlencoded"
+                               formmethod="post" formaction="enviar-por-email.php" value="Enviar por email">
+                    </label>
+                </br>
+        </br>
+
         <br>
         Nome:
         <label>
-            <input type="text" name="nome" autocomplete="on" placeholder="Seu nome" required autofocus maxlength="5">
+            <input type="text" name="nome"  form="form-cadastro" autocomplete="on" placeholder="Seu nome" required autofocus maxlength="5">
         </label>
         </br>
+
         <br>
         Senha:
         <label>
@@ -31,21 +46,102 @@
         </br>
 
         <br>
-        E-Mail:
+        E-mail:
         <label>
-            <input type="email" name="e-mail" autocomplete="on" placeholder="Seu e-mail" required autofocus ###disabled### >
+            <input type="email" name="e-mail" autocomplete="on" placeholder="Seu e-mail" required autofocus>
         </label>
         </br>
 
         <br>
         Imagem:
         <label>
-            <input type="file" name="imagem" placeholder="Imagem" required>
+            <input type="file" name="imagem">
         </label>
         </br>
+
+        <!--
+            <br>
+                <label>
+                    <input type="hidden" name="id">
+                </label>
+            </br>
+        -->
+
+        <br>
+        Data:
+        <label>
+            <input type="date" name="date" min="2022-10-20" max="2030-12-31">
+        </label>
+        </br>
+
+        <br>
+        Hora:
+        <label>
+            <input type="time" name="hora">
+        </label>
+        </br>
+
+        <br>
+        Mês e Ano:
+        <label>
+            <input type="month" name="mes-ano">
+        </label>
+        </br>
+
+        <br>
+        Semana:
+        <label>
+            <input type="week" name="semana">
+        </label>
+        </br>
+
+        <br>
+        Data e Hora:
+        <label>
+            <input type="datetime-local" name="data-e-hora">
+        </label>
+        </br>
+
+        <br>
+        Mensagem:
         <br>
         <label>
-            <input type="hidden" name="id">
+            <textarea name="mensagem" rows="10" cols="50" spellcheck="false">Escreva algo aqui</textarea>
+        </label>
+        </br>
+
+        <br>
+        <button type="button">Clique-me</button>
+        </br>
+
+        <br>
+        Encontre o carro ou moto dos seus sonhos:
+        <br>
+        <label>
+            <select name="veiculo">
+                <optgroup label="Carros">
+                    <option value="camaro">Camaro</option>
+                    <option value="hilux">Hilux</option>
+                </optgroup>
+
+                <optgroup label="Motos">
+                    <option value="pop-100">Pop-100</option>
+                    <option value="honda-cg-150">Honda CG 150</option>
+                </optgroup>
+            </select>
+        </label>
+        </br>
+        </br>
+
+        <br>
+        Escolha um Curso:
+        <label>
+            <input name="cursos" list="lista-cursos">
+            <datalist id="lista-cursos">
+                <option value="HTML5">test1</option>
+                <option value="CSS3">test2</option>
+                <option value="Javascript">test3</option>
+            </datalist>
         </label>
         </br>
 
@@ -55,18 +151,21 @@
             <input type="url" name="site" placeholder="URL" required>
         </label>
         </br>
+
         <br>
         Search:
         <label>
             <input type="search" name="pesquisa" placeholder="Pesquisa" required>
         </label>
         </br>
+
         <br>
         Telefone:
         <label>
             <input type="telefone" name="telefone" placeholder="Telefone" required>
         </label>
         </br>
+
         <br>
         Time:
         <label>
@@ -97,6 +196,7 @@
             <input type="number" nome="quantidade" min="0" max="100" placeholder="Quantidade" required>
         </label>
         </br>
+
         <br>
         <label>
             <input type="range" name="quantidade">
@@ -107,10 +207,10 @@
         Cor:
         <input type="color" name="cor">
         </br>
+
         <br>
         <input type="submit" name="bnt-enviar" value="Enviar">
         </br>
-
     </fieldset>
 
 </form>
