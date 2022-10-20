@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Kalavasth Veículos</title>
+    </head>
+    <body>
+            <form action="showtime.com" method="GET">
+                <fieldset>
+                    <br>
+                    Nome:
+                    <label>
+                        <input type="text" name="nome" autocomplete="on" placeholder="Seu nome" required autofocus maxlength="5">
+                    </label>
+                    </br>
+
+                    <br>
+                    Senha:
+                    <label>
+                        <input type="password" name="senha" autocomplete="on" placeholder="Sua senha" required autofocus>
+                    </label>
+                    </br>
+
+                    <br>
+                    Telefone:
+                    <label>
+                        <input type="telefone" name="telefone" placeholder="Telefone" required>
+                    </label>
+                    </br>
+
+                    <br>
+                    E-mail:
+                    <label>
+                        <input type="email" name="e-mail" autocomplete="on" placeholder="Seu e-mail" required autofocus>
+                    </label>
+                    </br>
+
+                    <br>
+                    Encontre o carro ou moto dos seus sonhos:
+                    <br>
+                    <label>
+                        <select name="veiculo">
+                            <optgroup label="Carros">
+                                <option value="camaro">Camaro</option>
+                                <option value="hilux">Hilux</option>
+                            </optgroup>
+                            <optgroup label="Motos">
+                                <option value="pop-100">Pop-100</option>
+                                <option value="honda-cg-150">Honda CG 150</option>
+                            </optgroup>
+                        </select>
+                    </label>
+                    </br>
+
+                    <br>
+                    Cores:
+                    <label>
+                        <input type="checkbox" name="cores" value="preto" required> Preto
+                        <input type="checkbox" name="cores" value="vermelho"> Vermelho
+                        <input type="checkbox" name="cores" value="azul"> Azul
+                    </label>
+                    </br>
+
+                    <br>
+                    Email:
+                    <br>
+                    <label>
+                        <input type="email" name="email" required>
+                        <input type="submit" name="casdastro" value="Casdastro">
+                    </label>
+                    </br>
+                    </br>
+
+                    <input type="submit" name="bnt-enviar" value="Enviar">
+                </fieldset>
+            </form>
+        </body>
+</html>

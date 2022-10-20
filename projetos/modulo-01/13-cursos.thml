@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cursos Online</title>
+</head>
+
+    <body>
+        <form action="cursosonline.com" method="GET">
+            <fieldset>
+                <br>
+                    Seu nome completo:
+                        <label>
+                            <input type="text" name="nome" autocomplete="on" placeholder="Seu nome" required autofocus maxlength="5">
+                        </label>
+                </br>
+
+                <br>
+                    Senha:
+                        <label>
+                            <input type="password" name="senha" autocomplete="on" placeholder="Sua senha" required autofocus>
+                        </label>
+                </br>
+
+                <br>
+                    Telefone:
+                        <label>
+                            <input type="telefone" name="telefone" placeholder="Telefone" required>
+                        </label>
+                </br>
+
+                <br>
+                    E-mail:
+                        <label>
+                            <input type="email" name="e-mail" autocomplete="on" placeholder="Seu e-mail" required autofocus>
+                        </label>
+                </br>
+
+                <br>
+                    Escolha o Curso:
+                        <label>
+                            <input name="cursos" list="lista-cursos" required>
+                            <datalist id="lista-cursos">
+                                <option value="HTML5">test1</option>
+                                <option value="CSS3">test2</option>
+                                <option value="Javascript">test3</option>
+                            </datalist>
+                        </label>
+                </br>
+
+                <br>
+                    <input type="submit" name="bnt-enviar" value="Enviar">
+                </br>
+
+                <form id="form-cadastro" name="formulario-cadastro"></form>
+                <br>
+                    Email:
+                        <br>
+                            <label>
+                                <input type="email" name="email" required>
+                                <input type="submit" name="casdastro" formenctype="application/x-www-form-urlencoded" formmethod="get"
+                                       formaction="cadastrar.php" value="Casdastro">
+                                <input type="submit" name="enviar-por-email" formtarget="_blank" formenctype="application/x-www-form-urlencoded"
+                                       formmethod="post" formaction="enviar-por-email.php" value="Enviar por email">
+                            </label>
+                        </br>
+                </br>
+
+            </fieldset>
+
+        </form>
+    </body>
+</html>
