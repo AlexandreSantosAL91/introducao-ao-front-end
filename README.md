@@ -38,3 +38,6 @@ Neste [repositório](https://github.com/AlexandreSantosAL91/introducao-ao-front-
 
 | [<img src="https://github.com/AlexandreSantosAL91/introducao-ao-front-end/blob/main/img/autor.jpg" width=115><br><sub>Alexandre Santos</sub>](github.com/AlexandreSantosAL91) | 
 | :---: |
+
+## :memo: Licença
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/AlexandreSantosAL91/portfolio/blob/main/LICENSE)
